@@ -1,0 +1,9 @@
+import { Express } from "express";
+const app=express();
+
+app.get('/',(req,res)=>{
+    app.send("server ghhh is running");
+})
+app.get('/api',(req,res)=>{
+    app.send("server ghhh is running");
+})
